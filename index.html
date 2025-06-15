@@ -3,20 +3,26 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+    />
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Krishna Agarwal</title>
 </head>
 <body>
-    <div class="header">
+    <!-- <div class="header"> -->
         <!-- <h1>Hi, I'm Krishna Agarwal</h1> -->
         <div class="nav">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </div>
-    </div>
+    <!-- </div> -->
      <!-- Hero Section -->
 
     <!-- <div class="intro">
@@ -25,7 +31,7 @@
     </div> -->
 
     <!-- Re-styled Hero Section -->
-    <div class="hero">
+    <div class="hero" id="about">
         <img src="my-photo.jpg" alt="Your photo" class="profile-pic">
         <h1>Hi, I'm Noir</h1>
         <p>Frontend Developer & DevOps Enthusiast</p>
@@ -45,7 +51,7 @@
     </div> -->
 
     <!-- Re-styled Skills Section -->
-    <section class="skills">
+    <section class="skills"  id="skills">
         <h2>Skills</h2>
         <div class="skills-grid">
             <div class="skill-card">HTML</div>
@@ -73,7 +79,7 @@
     </div> -->
 
     <!-- Re-styled Projects Section -->
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
         <div class="project-grid">
 
@@ -96,7 +102,7 @@
 
     <!-- Contact Section -->
 
-    <div class="contact">
+    <div class="contact" id="contact">
         <h2>Contact Me</h2>
         <form>
             <label for="name">Name: </label>
@@ -112,12 +118,15 @@
         </form>
     </div>
 
-    <footer class="footer">
+    <footer>
         <div class="socials">
-            <a href="#">GitHub</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
+            <a href="https://github.com/Nova-cmd-oss" target="_blank" rel="noopener"><i class="fab fa-github"></i>GitHub</a>
+
+            <a href="https://www.linkedin.com/in/krishna-agarwal-24116530a/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i>LinkedIn</a>
+
+            <a href="https://x.com/noir_xdev" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i>Twitter</a>
         </div>
+        ⚠️ For best experience, view in light mode. Dark mode support coming soon!
     </footer>
 </body>
 </html>

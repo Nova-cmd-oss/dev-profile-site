@@ -271,6 +271,11 @@ footer {
     width: 100%;
 }
 
+footer i {
+  margin-right: 5px;
+}
+
+
 footer p {
     margin: 0;
     font-size: 0.9em;
