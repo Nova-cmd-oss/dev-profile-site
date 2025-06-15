@@ -3,6 +3,8 @@
 Hi! This is my personal developer portfolio — built using HTML and CSS from scratch.  
 It's a simple yet functional site to showcase my skills, projects, and contact info.
 
+> ⚠️ Best viewed in **light mode** — dark mode styles are not optimized (yet)!
+
 👉 **Live here**: [https://nova-cmd-oss.github.io/dev-profile-site/](https://nova-cmd-oss.github.io/dev-profile-site/)
 
 ---
